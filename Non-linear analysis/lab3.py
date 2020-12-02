@@ -16,7 +16,7 @@ def mandelbrot( x, y, threshold):
 
 
 x_start, y_start = -2, -1.5
-width, height = 3, 3
+width, height = 3, 6
 density_per_unit = 500
 
 re = np.linspace(x_start, x_start + width, width * density_per_unit )
